@@ -59,14 +59,32 @@ export default function Home() {
         <h2 className="text-4xl font-bold">Selected work</h2>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
-          <article className="rounded-2xl border border-neutral-800 bg-neutral-900 p-8">
-            <p className="text-sm text-neutral-500">Project 01</p>
-            <h3 className="mt-3 text-2xl font-semibold">Coming soon</h3>
-            <p className="mt-4 text-neutral-400">
-              A full-stack project will live here with a live demo, source code
-              and technical breakdown.
-            </p>
-          </article>
+          
+         <article className="rounded-2xl border border-neutral-800 bg-neutral-900 p-8">
+          <p className="text-sm text-neutral-500">Project 01</p>
+
+          <h3 className="mt-3 text-2xl font-semibold">
+           Live Server Monitoring Dashboard
+          </h3>
+
+          <p className="mt-4 text-neutral-400">
+           A real-time monitoring application displaying CPU,
+           memory, disk usage and historical performance data
+           from my self-hosted Ubuntu server.
+          </p>
+
+          <p className="mt-4 text-sm text-neutral-500">
+            Next.js · Python · Docker · Linux · TypeScript
+          </p>
+
+          <a
+            href="/projects/server-monitor"
+            className="mt-6 inline-flex rounded-lg border border-neutral-700 px-5 py-3 font-medium text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+          >
+           View Live Dashboard →
+           </a>
+         </article>
+
 
           <article className="rounded-2xl border border-neutral-800 bg-neutral-900 p-8">
             <p className="text-sm text-neutral-500">Project 02</p>
